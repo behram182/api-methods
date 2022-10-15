@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+ 
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+header{
+    width: 100%;
+    height: 100vh;
+ display: flex;
+ flex-direction: column;
+
+}
+header .top{
+    width: 100%;
+    height: 60vh;
+    background-color: #0089ed;
+    display: flex;
+
+
+
+}
+h2{
+    font-size: 30px;
+    color: white;
+    display: flex;
+
+    
+   
+}
+.textr{
+    width: 250px;
+    height: auto;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+header .top #a{
+    width: 450px;
+    font-size: 22px;
+    color: white;
+    margin-top: 20px;
+}
+header .top #b{
+    font-family: 'Nabla', cursive;
+    font-size: 35px;
+    margin-top: 0px;
+    margin-left: 10px;
+    display: flex;
+}
+header .bottom{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.prnt{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+ .form{
+    width: 500px;
+    height: 550px;
+background-color: white;
+border-radius: 30px;
+    position: relative;
+    margin-top: 100px;
+    margin-right: 50px; 
+    padding: 20px 20px 20px 20px;
+
+   box-shadow: 3px 2px 2px 2px rgba(0, 0, 0, 0.315);;
+   display: flex;
+  flex-direction: column;
+   
+    
+}
+.form input{
+    width: 87%;
+    height: 40px;
+    border-radius: 7px;
+    border: 1px solid rgba(53, 52, 52, 0.87);
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.carded{
+    display: flex;
+    flex-direction: row;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0px;
+    margin-right: 20px;
+}
+label{
+    font-size: 20px;
+}
+.inputs input{
+    min-width: 140px;
+
+}
+.form .did{
+    width: 87%;
+
+}
+input{
+    outline: none;
+    padding: 0 0 0 10px;
+    font-size: 15px;
+}
+#clas{
+    width: 150px;
+    height: 45px;
+    background-color: #0089ed;
+    border-radius: 13px;
+    margin-left: auto;
+    margin-right: auto;
+    border: none;
+    transition: 2s;
+    font-size: 20px;
+    color: white;
+
+}
+#clas:hover{
+    background-color:white;
+    border: 2px solid #0089ed;
+    color: #0089ed;
+}
+h3{
+    font-size: 40px;
+    text-align: center;
+}
+ul{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(270px,1fr));
+    gap: 40px;
+    margin-top: 300px;
+}
+ul li{
+    width: 270px;
+    height: 170px;
+    border: 1px solid black;
+    padding: 10px 10px 10px 10px;
+    border-radius: 13px;
+    background-color: #EFF8FF;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+
+   
+}
+li p{
+    position: relative;
+}
+li button{
+    margin-top: 10px;
+}
+.top img{
+    margin-left: 120px;
+}
+
+.div{
+    display: flex;
+    flex-direction: column;
+  
+}
